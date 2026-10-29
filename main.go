@@ -91,7 +91,7 @@ func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	help_msg := fmt.Sprintln("\t dry - Print a dry run of new file names\n" +
 		"\t help, h - Display this help message\n" +
-		"\t list, ls - List the files that will be renamed\n" +
+		"\t list, ls - List the current found photos names\n" +
 		"\t quit, q - Exit the program (an empty line also exits)\n" +
 		"\t revert - Undo the last run, restoring the original file names\n" +
 		"\t run - Rename the files\n" +

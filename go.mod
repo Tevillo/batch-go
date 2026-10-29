@@ -1,3 +1,3 @@
-module batch-go
+module batch
 
 go 1.27.3
